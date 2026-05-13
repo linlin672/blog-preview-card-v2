@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+   
+    .external{
+      display: flex;
+      justify-content: center;
+      border: 1px solid #ffffff;
+
+    }
+    .internal2{
+        width: 500px;
+        margin:20px 20px;
+        padding: 40px;
+        background-color: hsl(47, 88%, 63%);
+        box-shadow: 0 0 20px rgba(0,0, 0, 0.4); 
+        border: 1px solid black;
+
+    }
+    .internal3{
+         width: 250px;
+         margin: auto;
+         background-color: hsl(0, 0%, 100%);
+         font-family: 'Courier New', Courier, monospace;
+         font-size: medium;
+         padding: 20px 20px;
+         border-radius: 15px 15px;
+         box-shadow: 5px 5px 3px black;
+    }
+    .zero img {
+      width:100%;
+      height: auto;
+      object-fit: cover;
+    } 
+    .first{
+      display: inline-block;
+      padding: 3px 3px;
+      background-color: yellow;
+    } 
+    h1{
+      font-size: 22px;
+    }
+    .author{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .author img{
+      width: 40px;
+      height: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="external">
+    <div class="internal2">
+      <div class="internal3">
+        <div class="zero"><img src="./assets/images/illustration-article.svg" alt="illustration-article"/></div>
+        <p class="first">Learning</p>
+        <p class="second">Published 21 Dec 2023</p>
+        <h1>HTML & CSS foundations</h1>
+        <p class="third"> These languages are the backbone of every website, defining structure, content, and presentation.</p>
+        <div class="author">
+          <img src="./assets/images/image-avatar.webp" alt="profile photo" /></div> 
+          <span>Greg Hooper</span>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+</body>
+</html>
